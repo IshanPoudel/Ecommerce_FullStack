@@ -1,4 +1,5 @@
 // Have a list of websites to scrape. 
 {
+    "websites" : [ "https://www.amazon.com/s?k=kindle" ]
 
 }
