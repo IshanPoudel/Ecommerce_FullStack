@@ -1,5 +1,9 @@
 // Have a list of websites to scrape. 
 {
-    "websites" : [ "https://www.amazon.com/s?k=kindle" ]
+    "websites" : [ "https://www.amazon.com/s?k=kindle" , "https://www.amazon.com/Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty" ]
 
+
+    
 }
+
+// Use Snowflake , Java  , Springboot , Redshift 
