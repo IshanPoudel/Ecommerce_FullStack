@@ -15,3 +15,7 @@ time.sleep(20)
 
 html_text = BeautifulSoup(html_text , 'htmll.parser')
 print(html_text)
+
+#From the html_text get , the values for item name , price per quantity , image link , uploaded by , etc. 
+
+
