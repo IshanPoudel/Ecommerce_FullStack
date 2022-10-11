@@ -1,6 +1,8 @@
 #Use bs4 and Selenium to scrape data prices and have them store it in a mongoDB instance. 
 
 from bs4 import BeautifulSoup
+import websites.json
+
 
 
 chrome_options = Options()  # Instantiate an options class for the selenium webdriver
