@@ -19,5 +19,6 @@ html_text = BeautifulSoup(html_text , 'htmll.parser')
 print(html_text)
 
 #From the html_text get , the values for item name , price per quantity , image link , uploaded by , etc. 
-
+item_name - parse_name(html_text);
+price_per_quantity = parse_name(html_text);
 
