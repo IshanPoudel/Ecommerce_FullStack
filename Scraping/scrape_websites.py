@@ -1,12 +1,13 @@
 #Use bs4 and Selenium to scrape data prices and have them store it in a mongoDB instance. 
 
 from bs4 import BeautifulSoup
-import websites.json
+from Selenium import Options
+# import websites.json
 
 
 
 chrome_options = Options()  # Instantiate an options class for the selenium webdriver
-# chrome_options.add_argument("--headless")  # So that a chrome window does not pop up
+chrome_options.add_argument("--headless")  # So that a chrome window does not pop up
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 time.sleep(10)
 
@@ -18,7 +19,7 @@ time.sleep(20)
 html_text = BeautifulSoup(html_text , 'htmll.parser')
 print(html_text)
 
-#From the html_text get , the values for item name , price per quantity , image link , uploaded by , etc. 
-item_name - parse_name(html_text);
-price_per_quantity = parse_name(html_text);
+# #From the html_text get , the values for item name , price per quantity , image link , uploaded by , etc. 
+# item_name - parse_name(html_text);
+# price_per_quantity = parse_name(html_text);
 
