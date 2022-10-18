@@ -1,7 +1,7 @@
 #Use bs4 and Selenium to scrape data prices and have them store it in a mongoDB instance. 
 
 from bs4 import BeautifulSoup
-from Selenium import Options
+from selenium import options
 # import websites.json
 
 
